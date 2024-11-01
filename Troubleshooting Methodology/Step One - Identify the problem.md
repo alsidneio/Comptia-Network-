@@ -1,0 +1,13 @@
+- gather information from the user 
+	- get the geneal state  of the system 
+	- get the before and after 
+	- did you see any error message ?
+	- weird noise
+		- HD failure: clicking and grinding noise 
+	- is it systemic: 
+		- is anyone else having the same problem 
+	- How long has this issue been happening
+	- try to see what else has been happening at the same time 
+	- has any configurations changes happened recently
+	- backup data before you start making any changes to that computer
+	- 

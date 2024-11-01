@@ -1,0 +1,18 @@
+- module/ parts redundancy
+	- hard drive
+	- power supplies 
+	- Network interface card 
+	- switches
+	- routers 
+- each piece of redundancy has a cost 
+- software redundancy
+	- virtual switches 
+	- virtual routers
+	- software RAID array 
+- protocol characteristics
+	- tcp v. UDP 
+- Power Redundancy 
+	- power supplies 
+	- batteries
+	- generators 
+- 

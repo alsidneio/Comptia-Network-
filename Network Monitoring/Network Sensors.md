@@ -1,0 +1,13 @@
+- monitor the performance of network devices
+	- temp
+		- chasis temp
+		- can be read at inlet and outlet 
+		- minor and major thresholds can be set 
+		- the device will eventually start loadshedding or have device performance degredation  over time 
+	- cpu
+		- traffic processing power 
+	- memory 
+		- system hangs 
+		- processor crashes 
+		- minor, severe, critical 
+		- 

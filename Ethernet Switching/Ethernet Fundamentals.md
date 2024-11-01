@@ -1,4 +1,4 @@
-## Ethenet fundamentals 
+## Ethernet fundamentals 
 ---
 
 10base2, 10base5  were the first ethernet types 
@@ -15,57 +15,22 @@
 
 Ethernet networks work on the contention based model because of low overhead
 
-How to detect collisions: 
-- Carrier Sense Multiple Access with Collision Detection (CSMA/CD)
-	- prevents collisions by using  carrier sensing to defer transmission until no other stations are transmitting
-	- to help resolve collisions a random backoff number is chosen 
-- Collision domain : element of a network that shares a single segment 
-- half duplex communication: listening and talking at the same time 
-- keep collision domains small inside the networks 
+- How to detect collisions: 
+	- Carrier Sense Multiple Access with Collision Detection (CSMA/CD) #Network-plus-Definitions 
+		- prevents collisions by using  carrier sensing to defer transmission until no other stations are transmitting 
+		- to help resolve collisions a random backoff number is chosen #Network-plus-Definitions 
+	- Collision domain : element of a network that shares a single segment #Network-plus-Definitions 
+	- half duplex communication: listening and talking at the same time  #Network-plus-Definitions 
+- Keeping network collisions small
+	- alot of collisions will cause a lot of retransmission  congestion
+	- Ports on Ethernet **switches** or **bridges** create its own collision domain
+	- you can operate in full duplex mode when on a switch, which increases speed. 
 
 #### Copper/ethernet vables 
 bandwith: how many bits can transmit per second
 
 NOTE: Create cards for the ethernete standards detailed in the Media & [Cabling DOc](obsidian://open?vault=ITOCC&file=Network%2B%2FMedia%20%26%20Cabling%20Distribution)
 
-## Network Infrastructure Devices 
----
-- Devices: 
-	- routers and switches, they are derived from hubs and bridges
-	- **HUB** is a **LAYER-1** device that connects multiple devices and workstations
-		- Passive hub: just repeats the information 
-		- Active Hub: Repeats information and boost signal for , amplification restarts the 100 meter limit
-		- hubs create a bigger collision domain 
-		- ![[Pasted image 20240308123035.png]]
-	- **BRIDGE** is a  **LAYER2** device that helps decrease domain collision issues of a hub
-			- bridges analyz source MAC addresses and makes intelligent forwarding decisions based on the destinsation MAC in the frames
-			- ![[Pasted image 20240308124311.png]]
-			- ![[Pasted image 20240308123210.png]]
-		- **SWITCH** is a **LAYER2** device  and is known as a mutliport bridge 
-			- a switch connects multiple network segments together
-			- breaks up collision domains, confines them to the individual ports, creates a full duplex situations 
-				- all ports are part of the same broadcast domain 
-			- makes forwarding decisions like a bridge
-			- Layer 2 devices focus on MAC addresses 
-			- there are layer 3 switches,  that can perform like a router but in a less efficient manner
-			- ![[Pasted image 20240308123158.png]]
-			- 
-		- **ROUTER** is  a **LAYER3** device 
-			- A router connects multiple networks together
-			- makes forwarding decisions based on logical network info
-			- Routers can seperate broadcast domains 
-			- ![[Pasted image 20240308123142.png]]
-
-
-network device table #notecard 
-
-| Device Type       | Collision Domain | Broadcast Domains | OSI Layer |
-| ----------------- | ---------------- | ----------------- | --------- |
-| Hub               | 1                | 1                 | 1         |
-| Bridge            | 1 per port       | 1                 | 2         |
-| Switch            | 1 per port       | 1                 | 2         |
-| Multilayer Switch | 1 per port       | 1 per port        | 3+        |
-| Router            | 1 per port       | 1 per port        | 3+        |
 ## Additional Ethernet Switch features
 ---
 - Link Aggregation  (IEEE 802.3ad) #notecard
@@ -146,13 +111,7 @@ Link Cost table
 ---
 - VLANs allow the use of a single port to create seperate broadcast domains, different logical networks
 	- vlans act as a virtual router
-- VLAN Trunking (802.1Q) #notecard 
-	- Trunking is when you merge data into a single cable  
-	- trunking helps reduce the amount of physical HW needed. while keeping logical seperation 
-	- We use a 4-byte identifier to determine a vlan 
-		- Tag Protocol Identifier, TPI
-		- Tag Control Identifier, TCI
-		- An untagged VLAN becomes you native vlan  , AKA VLAN-0
+
 
 ## Specialized Network Devices 
 ---

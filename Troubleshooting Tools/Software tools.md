@@ -1,0 +1,31 @@
+- wifi-analyzer
+	- used to conduct wireless surveys to ensure proper coverage and to prevent non-desired overlap between wireless access point coverage zones and shannels #Network-plus-Definitions 
+	- 
+- protocol analyzer 
+	-  Used to capture and analyze signals and data traffic over a communication channel #Network-plus-Definitions 
+	- wireshark
+	- protocol expert 
+	- netasyst
+	- network analyzer 
+	- observer 
+	- LanHound 
+	- Etherpeek
+- packet capture
+	- used to capture packets running over a network connection in real time and save for later analysis #Network-plus-Definitions 
+	- wireshark
+	- Solarwinds 
+	- tcpdump
+	- windump network miner
+- bandwidth speed test 
+	- verifies the real-world throughput from a client device all the way out to the internet and back #Network-plus-Definitions 
+	- should be called throughput test tool 
+- port scanner 
+	- Used to determine which ports are open on the network
+- netflow analyzer 
+	- performs monitoring, troubleshooting and in-deplth inspection, interprretation, and synthesis of traffic flow  data #Network-plus-Definitions 
+	- you can view the app type generating that traffic
+	- 
+- ip scanner
+	- a software used to look for and detect IP addresses and other related information 
+
+- NMAP and wireshark are the big ones used in networking 

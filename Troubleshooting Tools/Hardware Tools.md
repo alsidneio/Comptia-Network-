@@ -1,0 +1,35 @@
+- snip/cutter: cute the heavy duty cable 
+- cable stripper: exposes the wire within a cable 
+- crimper: attaches connector to then end of a cable 
+	- supports rj 45, and rj-11 connectors 
+- cable tester: used to verify the continuity of each wire in the cable
+	- ensure there is no breaks within the wire 
+	- multitester supports alll types of connectors
+- wire mapp tool: 
+	- cable tester for twisted pair 
+- cable certifyer: 
+	- determines category or data throughput 
+	- tells us how long 
+	- resistance 
+	- delay of cable 
+	- very expensive as compared to a cable tester 
+- Voltmeter, 
+	- 0 ohms means no break 
+- Punchdown tool 
+	- installing phone cable 
+- tone generator
+- detecting wire on the other end of the wire
+	- fox and hound scenario
+- Loop back adapter/device 
+	- receive is connected to the transmit 
+- time domain reflectometer 
+	- locates break in a copper cable. 
+		- also determines where and severity 
+- Fiber light meter
+	- multimode fiber uses led 
+	- single mode use a laser 
+- Fusion splicer 
+	- permanently join two pieves of cable together
+- tap: splits or copies network traffic for analysis
+- Spectrum analyzer: 
+	- measures frequency strength

@@ -1,0 +1,17 @@
+- VLAN Trunking (802.1Q) #notecard 
+	- Trunking is when you merge data into a single cable  
+	- trunking helps reduce the amount of physical HW needed. while keeping logical seperation 
+	- We use a 4-byte identifier to determine a vlan 
+		- Tag Protocol Identifier, TPI
+		- Tag Control Identifier, TCI
+		- An untagged VLAN becomes you native vlan  , AKA VLAN-0
+- The Native VLAn is the vlan on the trunk port that does not get the 802.1Q tagging #Network-plus-Definitions 
+	- so if a frame comes through untagged it will use the native VLAN for that port
+	- Untagged frames generally come from older devices thtat cannot support VLAN tagging
+	- FOr native vlan to work they must be consistently configured accross your network 
+		- the defaut is VLAN1, but security says to change that shit
+- Voice Vlan: Vlan for voice traffic, VoIP traffic #Network-plus-Definitions 
+- Line Aggregation:  a method used to combine multiple network connections into a single logical link #Network-plus-Definitions 
+	- helps provide redundancy
+	- used to support trunking lines
+	- 

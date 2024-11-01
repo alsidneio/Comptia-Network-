@@ -1,0 +1,12 @@
+- guess what the problem is based on step 1
+- Probable cause: the most likely cause among all the different possible causes that may have happened #Network-plus-Definitions 
+- question the obvious
+- internal/external research 
+	- downdetctor.com helps diagnose outages 
+- top to bottom approach of the OSI model. 
+	- APPLICATION 
+	- encryption 
+- Bottom up approach 
+	- first look at the cable connection 
+- divide and conquer approach 
+- 

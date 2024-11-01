@@ -1,0 +1,12 @@
+- authentication identity confirmation using more than one method #Network-plus-Definitions 
+	- mehtods: #Network-plus-Definitions 
+		- something you know
+			- the kknowledge factor: usernames, pins , password pins, personal question answers
+		- something you have
+			- Possession factor: smartcard, fobs, smart app
+		- something you are
+			- inherence factor: fingerprints, retina scans, voice prints
+		- something you do 
+			- action factor: how you sign your name , draw a pattern , say a catchphrase
+		- somewhere you are
+			- location factor: geotagging, geofencing

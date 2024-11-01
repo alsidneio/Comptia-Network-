@@ -1,0 +1,25 @@
+- Physical Network Diagram: show the actual physical arrangement of the components that make up the network #Network-plus-Definitions 
+	- server rack diagram 
+
+- Logical Network Diagrams: illustrates the flow of data across a network and shows how device communicate with eachother #Network-plus-Definitions 
+	- routers == circel with four arrows 
+	- switches , a square with four arrows 
+	- servers look like servers, computers look like computers
+	- Intrustion detection system , rectangle with a circle and arrows going through inside
+	- firewall: brickwall
+	- access point, rectangle with sin/cosine waves
+
+- wiring Diagrams: 
+- site survey reports
+	- planning and designing a wireless network to deliver the required wireless solution 
+	- looks like a thermal diagraam, indicating strength of a wireless signal 
+- Audit and assesment reports
+	- Executive summary 
+	- scope and objectives 
+	- assumptions and limitations 
+	- methods and tools 
+	- environment and sustem diagram 
+	- security requirements 
+	- findings and recommendations 
+	- audit results
+- Baseline Configurations: set of specifications for an information system or a configuration item withn a system that has been formally agreed on #Network-plus-Definitions 
